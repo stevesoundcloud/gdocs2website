@@ -1,0 +1,18 @@
+{
+  "name": "gdocs2website",
+  "version": "0.0.1",
+  "description": "wip/alpha",
+  "scripts": {
+    "test": "node_modules/.bin/ts-node node_modules/.bin/tape test/**/*-test.ts"
+  },
+  "author": "Steve Conover",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/tape": "^4.2.32",
+    "tape": "^4.9.0",
+    "ts-node": "^6.0.0"
+  },
+  "dependencies": {
+    "typescript": "^2.8.3"
+  }
+}
