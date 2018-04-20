@@ -1,9 +1,10 @@
-import * as test from "tape"
+import { test } from "mocha"
+import { assert } from "chai";
 
-test("passes", (assert: test.Test) => {
-  assert.equal(2, 2)
+test("fail", () => {
+  assert.equal(2, 1)
 })
 
-test("fails", (assert: test.Test) => {
-  assert.equal(2, 1)
+test("pass", () => {
+  assert.equal(2, 2)
 })
